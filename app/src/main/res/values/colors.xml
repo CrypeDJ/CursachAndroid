@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#0C0A15</color>
+    <color name="edit_text_cl">#9F9F9F</color>
+    <color name="fogget_pass">#CFCFCF</color>
+    <color name="main_btn">#210037</color>
+    <color name="btn_create_cl">#FFFFFF</color>
+</resources>

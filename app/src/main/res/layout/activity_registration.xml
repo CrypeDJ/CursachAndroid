@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/authtorization"
+    android:id="@+id/reg_window"
+    tools:context=".Registration">
+
+    <TextView
+        android:id="@+id/text_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/cygreblack"
+        android:text="РЕГИСТРАЦИЯ"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="35sp"  />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/text_reg"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/craftworkgrotesk"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:hint="Имя"
+        android:textColorHint="@color/edit_text_cl"
+        android:inputType="textAutoCorrect |textCapSentences"
+        android:maxLength="20"
+        />
+
+    <Spinner
+        android:id="@+id/spSex"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/name"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/craftworkgrotesk"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+
+        android:tooltipText="Пол"
+        android:textColor="@color/edit_text_cl"
+
+        />
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/spSex"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/craftworkgrotesk"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:hint="Дата рождения"
+        android:textColorHint="@color/edit_text_cl"
+        android:inputType="date"
+        android:maxLength="10"
+        />
+
+    <EditText
+        android:id="@+id/email_reg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/date"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/craftworkgrotesk"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:hint="Почта"
+
+        android:textColorHint="@color/edit_text_cl"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/pass_reg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/email_reg"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/craftworkgrotesk"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:hint="Пароль"
+        android:textColorHint="@color/edit_text_cl"
+        android:inputType="textPassword"
+        android:maxLength="30"
+        />
+
+    <EditText
+        android:id="@+id/confirm_pass"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/pass_reg"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/craftworkgrotesk"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:hint="Пароль ещё раз"
+        android:textColorHint="@color/edit_text_cl"
+        android:inputType="textPassword"
+        android:maxLength="30"
+        />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/confirm_pass"
+        android:layout_marginHorizontal="60dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/main_btn"
+        android:fontFamily="@font/cygreblack"
+        android:text="ЗАРЕГИСТРИРОВАТЬСЯ"
+        android:textColor="@color/btn_create_cl"
+        android:textSize="15dp"
+        tools:ignore="TextSizeCheck" />
+
+
+</RelativeLayout>

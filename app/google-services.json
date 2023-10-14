@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "675689714433",
+    "firebase_url": "https://cursach-3270c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "cursach-3270c",
+    "storage_bucket": "cursach-3270c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675689714433:android:10b2cdc2c05adfcf454100",
+        "android_client_info": {
+          "package_name": "com.example.cursach"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUYg3Sk9XFwfTzpI4HL2sdG5BPaf28Jbs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
